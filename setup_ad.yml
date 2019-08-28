@@ -1,0 +1,8 @@
+---
+- name: Apply role to windows host group
+  hosts: windows
+  become: true
+ 
+  roles:
+        - win_ad_install     
+...
