@@ -1,5 +1,5 @@
 [3tierapp:vars]
-GUID="{{ lookup('env', 'GUID') }}"
+GUID=d1c7
 timeout=60
 ansible_become=yes
 ansible_ssh_user=ec2-user
